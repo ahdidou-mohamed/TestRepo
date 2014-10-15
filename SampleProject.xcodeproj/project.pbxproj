@@ -23,6 +23,7 @@
 		04245FD419EDD81F0016B5D8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04245FD319EDD81F0016B5D8 /* ViewController.xib */; };
 		046BA77019EEAC8300A08D15 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BA76E19EEAC8300A08D15 /* TestViewController.m */; };
 		046BA77119EEAC8300A08D15 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046BA76F19EEAC8300A08D15 /* TestViewController.xib */; };
+		046BA77419EEB13300A08D15 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BA77319EEB13300A08D15 /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		046BA76D19EEAC8300A08D15 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		046BA76E19EEAC8300A08D15 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		046BA76F19EEAC8300A08D15 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		046BA77219EEB13300A08D15 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		046BA77319EEB13300A08D15 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				046BA76D19EEAC8300A08D15 /* TestViewController.h */,
 				046BA76E19EEAC8300A08D15 /* TestViewController.m */,
 				046BA76F19EEAC8300A08D15 /* TestViewController.xib */,
+				046BA77219EEB13300A08D15 /* TestObject.h */,
+				046BA77319EEB13300A08D15 /* TestObject.m */,
 			);
 			path = SampleProject;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			files = (
 				04245FB519EDD7F20016B5D8 /* ViewController.m in Sources */,
 				04245FAF19EDD7F20016B5D8 /* AppDelegate.m in Sources */,
+				046BA77419EEB13300A08D15 /* TestObject.m in Sources */,
 				046BA77019EEAC8300A08D15 /* TestViewController.m in Sources */,
 				04245FAB19EDD7F20016B5D8 /* main.m in Sources */,
 			);
